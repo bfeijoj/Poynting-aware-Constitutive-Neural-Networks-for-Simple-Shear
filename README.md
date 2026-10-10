@@ -70,25 +70,6 @@ Although the architecture is written in terms of constitutive deformation measur
 
 Similarly, leave-one-orientation-out tests showed that the currently available angular sampling is insufficient for reliable prediction of unseen fiber orientations. A denser experimental sampling of fiber directions is expected to be necessary for a stronger assessment of angular generalization.
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone <REPOSITORY_URL>
-cd <REPOSITORY_NAME>
-```
-
-Create and activate a Python environment, then install the required dependencies.
-
-If a `requirements.txt` file is provided:
-
-```bash
-pip install -r requirements.txt
-```
-
-> Replace the commands above if a different environment manager is used in this repository.
-
 ## Usage
 
 The repository contains the routines used to train, evaluate, and post-process the PA-CANN models presented in the associated study.
@@ -155,9 +136,9 @@ Values near unity indicate model discrepancies of approximately the same order a
 
 **Poynting-Aware Constitutive Artificial Neural Networks: Hyperelastic Model Discovery under Simple Shear**
 
-Authors: `<AUTHOR LIST>`
+Authors: `<Bernardo Feijó Junqueira, Carolina Seixas Moreira, Sarah Silveira Mendes, Germano Guilherme Rodrigues Caldeira, Luiz Carlos da Silva Nunes>`
 
-Journal: `<JOURNAL>`
+Journal: `<Computer Methods in Applied Mechanics and Engineering>`
 
 DOI: `<DOI>`
 
@@ -185,5 +166,5 @@ The source code used to implement, train, and evaluate the PA-CANN models is pro
 
 For questions regarding the implementation, experimental data, or associated publication, please contact:
 
-`<CORRESPONDING AUTHOR>`  
-`<EMAIL>`
+`<Bernardo Feijó Junqueira>`  
+`<bernardo.junqueira@eng.uerj.br>`
