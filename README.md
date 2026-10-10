@@ -23,23 +23,19 @@ The framework is evaluated for isotropic and unidirectional fiber-reinforced mat
 
 For the isotropic contribution, the PA-CANN uses
 
-$$
-\psi_{\mathrm{isotropic}}
-=
-\psi_{\mathrm{VL}} + c_2(I_2-3),
-$$
+```math
+\psi_{\mathrm{isotropic}} = \psi_{\mathrm{VL}} + c_2(I_2-3)
 
 with
 
-$$
+```math
 \psi_{\mathrm{VL}}
 =
 \sum_{i=1}^{3} w_{\mathrm{VL}}(\xi_{\lambda_i}),
 \qquad
 \xi_{\lambda_i}
 =
-\left(\lambda_i-\lambda_i^{-1}\right)^2.
-$$
+\left(\lambda_i-\lambda_i^{-1}\right)^2
 
 The same scalar map $w_{\mathrm{VL}}$ is shared across the three principal stretches.
 
@@ -47,11 +43,10 @@ The Poynting-aware correction is constrained so that the reference-state isotrop
 
 For fiber-reinforced materials, the anisotropic branch additionally uses orientation-dependent stretch features together with
 
-$$
+'''math
 \xi_{I_4}=(I_4-1)^2,
 \qquad
 \xi_{I_5}=(I_5-1)^2.
-$$
 
 ## Main capabilities
 
