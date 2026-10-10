@@ -136,9 +136,9 @@ Values near unity indicate model discrepancies of approximately the same order a
 
 **Poynting-Aware Constitutive Artificial Neural Networks: Hyperelastic Model Discovery under Simple Shear**
 
-Authors: `<Bernardo Feijó Junqueira, Carolina Seixas Moreira, Sarah Silveira Mendes, Germano Guilherme Rodrigues Caldeira, Luiz Carlos da Silva Nunes>`
+Authors: `Bernardo Feijó Junqueira, Carolina Seixas Moreira, Sarah Silveira Mendes, Germano Guilherme Rodrigues Caldeira, Luiz Carlos da Silva Nunes`
 
-Journal: `<Computer Methods in Applied Mechanics and Engineering>`
+Journal: `Computer Methods in Applied Mechanics and Engineering`
 
 DOI: `<DOI>`
 
@@ -166,5 +166,5 @@ The source code used to implement, train, and evaluate the PA-CANN models is pro
 
 For questions regarding the implementation, experimental data, or associated publication, please contact:
 
-`<Bernardo Feijó Junqueira>`  
-`<bernardo.junqueira@eng.uerj.br>`
+`Bernardo Feijó Junqueira`  
+`bernardo.junqueira@eng.uerj.br`
