@@ -201,7 +201,12 @@ The source code used to implement, train, and evaluate the PA-CANN models is pro
 
 ## License
 
-`<LICENSE INFORMATION>`
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file
+for details.
+
+The license applies to the source code provided in this repository and does
+not extend to the experimental datasets, which are subject to the conditions
+of their original publications.
 
 ## Contact
 
