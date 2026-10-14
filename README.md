@@ -93,6 +93,30 @@ The experimental datasets analyzed in the associated study were obtained from pr
 
 The original experimental data are not redistributed as part of this repository but may be made available by the authors upon reasonable request, subject to the conditions associated with the original studies.
 
+### Input data format
+
+Experimental data are read as plain-text numerical files using `numpy.loadtxt`.
+Each file corresponds to one experimental specimen and contains three
+whitespace-separated columns:
+
+| Column | Quantity | Description | Unit |
+|---|---|---|---|
+| 1 | $\gamma$ | Applied shear strain | dimensionless |
+| 2 | $\tau_{12}$ | Shear stress | MPa |
+| 3 | $\sigma_{22}$ | Normal stress | MPa |
+
+The input files do not require a header. A typical file has the following
+structure:
+
+```text
+0.0000000e+00   0.0000000e+00   0.0000000e+00
+2.2846109e-02   2.0322900e-02   7.7227232e-04
+5.1186248e-02   3.4001775e-02   1.2013125e-03
+7.7324345e-02   4.7420098e-02   1.1155045e-03
+1.0122149e-01   5.8493473e-02   8.1517634e-04
+
+Files should follow the naming convention: data<orientation>_<sample_id>
+
 ## Reproducibility
 
 The study includes analyses of:
@@ -105,6 +129,22 @@ The study includes analyses of:
 - separate and combined calibration of fiber orientations.
 
 For stochastic training, exact numerical results may vary slightly between runs unless the same random seed and computational environment are used.
+
+### Computational environment
+
+The numerical results reported in the associated study were obtained using the
+following computational environment:
+
+- Python: 3.8.18
+- NumPy: 1.21.6
+- Matplotlib: 3.4.2
+- SciPy: 1.10.1
+- Scikit-learn: 0.24.2
+- TensorFlow: 2.6.0
+- Keras: 2.6.0
+- GPU devices: 0
+
+The calculations were therefore performed using TensorFlow on CPU.
 
 ## Model assessment
 
